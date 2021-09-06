@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TeaCafe</title>
+    <link href="mg.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="row clearfix">
+                <img src="https://www.pngarts.com/files/3/Tea-Cup-Transparent-Image.png" class="logo">
+                <ul class="main-nav" id="check">
+                    <li><a href="#">TEA DELIVERY</a> </li>
+                    <li><a href="#">HOW TO DELIVERY</a> </li>
+                    <li><a href="#">ORDER DELIVERY</a> </li>
+                    <li><a href="#">ABOUT</a> </li>
+                </ul>
+                <a href="#" class="mobile-option" id="check" onclick="slideshow()"><i class="fas fa-bars"></i></a>
+            </div>
+        </nav>
+        <div class="main-heck">
+            <h1> <span class="changecolor">WELCOME TO TEA CAFE</span><br>
+                MAKE DAY GLORIOUS, GOOD MEMRORIES.</h1>
+            <a href="#" class="btn btn-full">SHOW TO ORDER</a>
+            <a href="#" class="btn btn-nav">SHOW ME MORE</a>
+        </div>
+    </header>
+</body>
+<script>
+    function slideshow() {
+        var x = document.getElementById('check');
+        if (x.style.display === "none") {
+            x.style.display = "block";
+
+        }
+        else {
+            x.style.display = "none";
+        }
+    }
+</script>
+
+</html>
